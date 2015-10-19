@@ -6,8 +6,11 @@ int main()
     
     while(num < 100)
     {
-        printf("%d - ", num);
-        num = num +2;
+        if ( num%2 == 1 )
+        {
+            printf("%d - ", num);
+        }
+        num++; //num = num +1;
     }
     
     return 0;
