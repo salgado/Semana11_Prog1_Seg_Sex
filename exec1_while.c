@@ -6,7 +6,7 @@ int main()
     
     while(num < 100)
     {
-        if ( num%2 == 1 )
+        if ( num%2 == 0 )
         {
             printf("%d - ", num);
         }
